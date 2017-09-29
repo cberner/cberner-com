@@ -1,0 +1,6 @@
+[submodule "hugo/themes/hugo-future-imperfect"]
+	path = hugo/themes/hugo-future-imperfect
+	url = https://github.com/cberner/hugo-future-imperfect.git
+[submodule "hugo/themes/hpstr"]
+	path = hugo/themes/hpstr
+	url = https://github.com/dldx/hpstr-hugo-theme.git

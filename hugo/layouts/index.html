@@ -1,0 +1,52 @@
+{{ partial "header" . }}
+    {{ $.Scratch.Set "shareNav" true }}
+    {{ partial "navbar" . }}
+    <!-- Main -->
+    <div id="main">
+        {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
+
+        {{ if eq .Paginator.PageNumber 1 }}
+            {{ range first 1 .Paginator.Pages }}
+                <article class="post">
+                    {{ .Render "header" }}
+
+                    {{ if not .Site.Params.socialShareDisabled }}
+                    <section id="social-share">
+                        <ul class="icons">
+                            {{ partial "share-links" . }}
+                        </ul>
+                    </section>
+                    {{ end }}
+
+                    {{ .Render "featured" }}
+                    <div id="content">
+                        {{ .Content }}
+                    </div>
+
+                    <footer>
+                        {{ .Render "footer-category" }}
+                    </footer>
+                </article>
+
+                {{ partial "share-menu" . }}
+            {{ end }}
+        {{ end }}
+
+        {{ if eq .Paginator.PageNumber 1 }}
+            {{ range after 1 .Paginator.Pages }}
+                {{ .Render "content-list" }}
+
+                {{ partial "share-menu" . }}
+            {{ end }}
+        {{ else }}
+            {{ range .Paginator.Pages }}
+                {{ .Render "content-list" }}
+
+                {{ partial "share-menu" . }}
+            {{ end }}
+        {{ end }}
+
+        {{ partial "pagination" . }}
+    </div>
+    {{ partial "sidebar" . }}
+{{ partial "footer" . }}

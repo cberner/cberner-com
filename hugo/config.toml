@@ -1,0 +1,43 @@
+baseURL = "https://www.cberner.com"
+languageCode = "en-us"
+title = "cberner.com"
+theme = "hugo-future-imperfect"
+
+googleAnalytics = "UA-19659565-3"
+
+PygmentsCodeFences = true
+
+disqusShortname = "cberner"
+paginate = 5
+
+[params]
+    socialShareDisabled = true
+    includeReadingTime = true
+    description = "cberner.com - A blog about Linux, Programming, and Computers"
+    navbarTitle = "cberner.com"
+    customCSS = ["default", "/css/override.css"]
+
+    # The set of favicons used are based on the write-up from this link:
+    # https://github.com/audreyr/favicon-cheat-sheet
+    # Please see the favicon partial template for more information
+    # TODO: should add these
+    loadFavicon          = false
+    faviconVersion       = ""
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    identifier = "fa fa-home"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    identifier = "fa fa-id-card-o"
+    weight = 2
+
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    identifier = "fa fa-sitemap"
+    weight = 3
