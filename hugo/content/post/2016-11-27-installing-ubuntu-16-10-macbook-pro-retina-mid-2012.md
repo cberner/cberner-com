@@ -5,7 +5,7 @@ type: post
 date: 2016-11-27T00:50:46+00:00
 url: /2016/11/27/installing-ubuntu-16-10-macbook-pro-retina-mid-2012/
 categories:
-  - Uncategorized
+  - Ubuntu
 
 ---
 I did a fresh install of 16.10 on my Macbook Pro Retina mid-2012 (rMBP 10,1). It seems quite stable so far, and brings a bunch of small improvements over 16.04.
