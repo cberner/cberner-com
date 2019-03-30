@@ -2,7 +2,7 @@
 title: RaptorQ (RFC6330) and performance optimization in Rust
 author: Christopher Berner
 type: post
-date: 2019-03-30T18:11:47+00:00
+date: 2019-03-30T02:11:47+00:00
 url: /2019/03/30/raptorq-rfc6330-rust-optimization/
 categories:
   - programming
