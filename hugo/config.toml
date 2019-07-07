@@ -25,7 +25,7 @@ enableRobotsTXT = true
     faviconVersion       = ""
 
     # options for highlight.js (version, additional languages, and theme)
-    disable_highlight = false # set to true to disable Highlight
+    disable_highlight = true # set to true to disable Highlight
     highlightjsVersion = "9.11.0"
     highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
     highlightjsLang = ["r", "yaml", "css"]
