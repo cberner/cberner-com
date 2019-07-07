@@ -2,7 +2,7 @@ serve_local:
 	hugo server -s hugo
 
 build:
-	rm -rf public/
+	mv -T public public-bak
 	hugo -s hugo -d ../public
 
 publish: build
