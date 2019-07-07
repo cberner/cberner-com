@@ -1,0 +1,13 @@
+article.post {
+    max-width: 900px;
+    margin: 0px auto 50px auto;
+}
+
+#content p a, #content ul li a {
+    color: #0366d6;
+    border-bottom: none;
+}
+
+#content p a:hover {
+    text-decoration: underline;
+}

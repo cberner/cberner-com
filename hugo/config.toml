@@ -17,7 +17,6 @@ enableRobotsTXT = true
     includeReadingTime = true
     description = "cberner.com - A blog about Linux, Programming, and Computers"
     navbarTitle = "cberner.com"
-    customCSS = ["default", "/css/override.css"]
 
     # The set of favicons used are based on the write-up from this link:
     # https://github.com/audreyr/favicon-cheat-sheet
