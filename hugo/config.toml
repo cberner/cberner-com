@@ -7,7 +7,7 @@ googleAnalytics = "UA-19659565-3"
 
 PygmentsCodeFences = true
 
-disqusShortname = "cberner"
+#disqusShortname = "cberner"
 paginate = 5
 
 enableRobotsTXT = true
