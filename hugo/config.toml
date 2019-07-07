@@ -10,6 +10,8 @@ PygmentsCodeFences = true
 disqusShortname = "cberner"
 paginate = 5
 
+enableRobotsTXT = true
+
 [params]
     socialShareDisabled = true
     includeReadingTime = true
@@ -22,6 +24,15 @@ paginate = 5
     # Please see the favicon partial template for more information
     loadFavicon          = false
     faviconVersion       = ""
+
+    # options for highlight.js (version, additional languages, and theme)
+    disable_highlight = false # set to true to disable Highlight
+    highlightjsVersion = "9.11.0"
+    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    highlightjsLang = ["r", "yaml", "css"]
+    highlightjsTheme = "github"
+    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    MathJaxVersion = "2.7.1"
 
 [[menu.main]]
     name = "Home"
