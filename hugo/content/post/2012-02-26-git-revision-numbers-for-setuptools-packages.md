@@ -7,9 +7,10 @@ url: /2012/02/26/git-revision-numbers-for-setuptools-packages/
 categories:
   - Python
 comments: false
+description: Adding snapshot versions to setuptools packages from SVN is easy. This post describes how to do it in GIT too.
 
 ---
-Add snapshot versions to your setuptools packages from SVN is easy, using the `tag_svn_revision = true` options in setup.cfg. However, getting this working for GIT proved to be more difficult, as there's no built in support. However, I finally settled on a bash script that does the job quite nicely.
+Adding snapshot versions to your setuptools packages from SVN is easy, using the `tag_svn_revision = true` options in setup.cfg. However, getting this working for GIT proved to be more difficult, as there's no built in support. However, I finally settled on a bash script that does the job quite nicely.
 
 ```bash
 now=`date +%s`
