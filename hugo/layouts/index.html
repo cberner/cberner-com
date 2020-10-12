@@ -3,7 +3,7 @@
     {{ partial "navbar" . }}
     <!-- Main -->
     <div id="main">
-        {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
+        {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
 
         {{ if eq .Paginator.PageNumber 1 }}
             {{ range first 1 .Paginator.Pages }}
