@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "cberner.com"
 theme = "hugo-future-imperfect"
 
-googleAnalytics = "UA-19659565-3"
+googleAnalytics = "G-KZNX9H3HDZ"
 
 PygmentsCodeFences = true
 
