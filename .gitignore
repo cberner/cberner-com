@@ -1,3 +1,5 @@
 public/
 public-bak/
 .firebase/
+.idea/
+.hugo_build.lock
