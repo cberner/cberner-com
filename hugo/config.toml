@@ -13,6 +13,7 @@ paginate = 5
 enableRobotsTXT = true
 
 [params]
+    summary_length = 800
     socialShareDisabled = true
     includeReadingTime = true
     description = "cberner.com - A blog about Linux, Programming, and Computers"
